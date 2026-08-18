@@ -80,12 +80,12 @@ Using Pearson's Correlation Coefficient(PCC) and Spearman's Rank Correlation to 
 
 | DL Models      | Train R2 | Test R2 | Train RMSE | Test RMSE | Train MSE | Test MAE |
 | -------------- | -------- | ------- | ---------- | --------- | --------- | -------- |
-| ANN            |          |         |            |           |           |          |
-| GNN            |          |         |            |           |           |          |
-| TabTransformer |          |         |            |           |           |          |
+| ANN            | 0.9244   | 0.8836  | 11.1051    | 13.7878   | 7.0366    | 9.3058   |
+| GNN            | 0.9284   | 0.9099  | 10.8065    | 12.1280   | 7.7647    | 9.0203   |
+| TabTransformer | 0.8445   | 0.8451  | 15.8348    | 15.9069   | 11.3006   | 11.4483  |
 | FT-Transformer |          |         |            |           |           |          |
 
-#### 
+
 
 #### SHAP  Feature Importance Analysis
 
@@ -95,5 +95,4 @@ Using Pearson's Correlation Coefficient(PCC) and Spearman's Rank Correlation to 
 
 
 
-
-
+Higher current density decrease the cs and lower cd increase.
